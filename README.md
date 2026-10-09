@@ -10,7 +10,7 @@
 | :--- | :--- |
 | **Estudiante** | Jeancarlos Fernando Aguirre Romero |
 | **Asignatura** | Estructura de Datos |
-| **Ciclo / Paralelo** | 3ro A |
+| **Ciclo Paralelo** | 3ro A |
 | **Docente** | Cristian Ramiro Narváez Guillén |
 
 ---
