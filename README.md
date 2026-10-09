@@ -1,6 +1,6 @@
 # 📚 Repositorio de Estructuras de Datos
 
-¡Bienvenido al repositorio oficial de la asignatura **Estructura de Datos**! Este espacio está destinado al almacenamiento, archivo y seguimiento de todas las actividades académicas desarrolladas a lo largo del ciclo.
+¡Bienvenido al repositorio oficial de la asignatura **Estructura de Datos** del Grupo 8! Este espacio está destinado al almacenamiento, archivo y seguimiento de todas las actividades académicas desarrolladas a lo largo del ciclo.
 
 ---
 
