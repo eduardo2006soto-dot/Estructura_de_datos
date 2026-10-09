@@ -26,8 +26,7 @@ Para revisar la solución de las diferentes prácticas de laboratorio y APEs des
 .
 ├── 📁 Unidad-1/
 │   ├── 📁 APE-01/
-│   │   ├── 📄 src/
-│   │   └── 📄 README.md (Informe / Detalle de la práctica)
+│   │   └── 📄 Example.md
 │   └── 📁 APE-02/
 ├── 📁 Unidad-2/
 │   └── ...
