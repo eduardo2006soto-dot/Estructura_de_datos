@@ -1,9 +1,3 @@
-/**
-   * Asignado a: Will
-   * Componente: Métodos de Navegación del Cursor
-   * Archivo: src/models/ListaDobleNavegacion.js (Parte 2)
-   */
-
   /**
    * Desplaza el cursor activo hacia el siguiente nodo. Complejidad: O(1)
    * @returns {Object|null} El dato del nuevo nodo activo o null si alcanza el final.
