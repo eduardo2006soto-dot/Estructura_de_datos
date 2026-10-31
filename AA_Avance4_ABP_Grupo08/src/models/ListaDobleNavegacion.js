@@ -30,3 +30,44 @@ class ListaDobleNavegacion {
     return nuevoNodo;
   }
 
+ /**
+   * Elimina el elemento en la posición actual y reconecta los enlaces.
+   * Libera las referencias internas para apoyar la gestión de memoria. Complejidad: O(1)
+   * @returns {boolean} Confirmación de eliminación.
+   */
+  eliminarActual() {
+    if (!this.actual) return false;
+    const nodoAEliminar = this.actual;
+
+    // Caso cuando solo existe un nodo en la lista
+    if (this.longitud === 1) {
+      this.cabeza = null;
+      this.cola = null;
+      this.actual = null;
+    } else {
+      // Reconexión del enlace anterior
+      if (nodoAEliminar.anterior) {
+        nodoAEliminar.anterior.siguiente = nodoAEliminar.siguiente;
+      } else {
+        this.cabeza = nodoAEliminar.siguiente;
+      }
+
+      // Reconexión del enlace siguiente
+      if (nodoAEliminar.siguiente) {
+        nodoAEliminar.siguiente.anterior = nodoAEliminar.anterior;
+        this.actual = nodoAEliminar.siguiente;
+      } else {
+        this.cola = nodoAEliminar.anterior;
+        this.actual = nodoAEliminar.anterior;
+      }
+    }
+
+    // Limpieza explícita de referencias (Garbage Collection Helper)
+    nodoAEliminar.siguiente = null;
+    nodoAEliminar.anterior = null;
+    this.longitud--;
+    return true;
+  }
+}
+
+module.exports = ListaDobleNavegacion
