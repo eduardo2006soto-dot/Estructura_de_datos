@@ -1,10 +1,3 @@
-5. Christopher Pineda
-/**
- * Asignado a: Quinto Integrante (QA / Testing)
- * Componente: Batería de Pruebas Unitarias Automatizadas
- * Archivo: tests/navegacion.test.js
- */
-
 const { test, describe, beforeEach } = require('node:test');
 const assert = require('node:assert/strict');
 const ListaDobleNavegacion = require('../src/models/ListaDobleNavegacion');
